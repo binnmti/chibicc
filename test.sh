@@ -17,6 +17,7 @@ assert() {
 }
 
 assert 0 0
-assert 42 123
+assert 123 123
+assert 21 "5+20-4"
 
 return OK
